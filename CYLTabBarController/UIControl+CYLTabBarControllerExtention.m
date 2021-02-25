@@ -302,7 +302,7 @@
     lottieView.translatesAutoresizingMaskIntoConstraints = NO;
     [lottieView setClipsToBounds:NO];
 //    [tabButton cyl_replaceTabImageViewWithNewView:lottieView show:YES];
-    UIOffset offset = CYL_IS_IPHONE_X ? UIOffsetZero : UIOffsetMake(0, -5);
+    UIOffset offset = CYL_IS_IPHONE_X ? UIOffsetZero : UIOffsetMake(0, -7);
     [tabButton cyl_replaceTabImageViewWithNewView:lottieView offset:offset show:YES completion:nil];
 #else
 #endif
